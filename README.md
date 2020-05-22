@@ -1,4 +1,8 @@
 # Meowee
+### Used frameworks
+* SwiftUI
+* Combine
+* Catalyst
 
 ## Screenshots
 ### iOS
