@@ -7,25 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F431035E246C7AE80064E4A2 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431035D246C7AE80064E4A2 /* CollectionView.swift */; };
+		F473E498246AA3CD00F56972 /* CatCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473E497246AA3CD00F56972 /* CatCollectionCellViewModel.swift */; };
+		F473E49A246AA4CE00F56972 /* BreedImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473E499246AA4CE00F56972 /* BreedImageLoader.swift */; };
+		F473E49C246AABC400F56972 /* BreedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473E49B246AABC400F56972 /* BreedImage.swift */; };
+		F473E49F246AB67100F56972 /* UIActivityIndicator+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473E49E246AB67100F56972 /* UIActivityIndicator+SwiftUI.swift */; };
+		F473E4A3246B01B300F56972 /* CatInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473E4A2246B01B300F56972 /* CatInformationViewModel.swift */; };
+		F48E5BE724698F1A0053B4AA /* TheCatApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E5BE624698F1A0053B4AA /* TheCatApiRequest.swift */; };
+		F48E5BE9246990820053B4AA /* TheCatApiFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E5BE8246990820053B4AA /* TheCatApiFetcher.swift */; };
+		F48E5BEC246996150053B4AA /* CatCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E5BEB246996150053B4AA /* CatCollectionViewModel.swift */; };
+		F48E5BEE2469BA0B0053B4AA /* CatCollectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E5BED2469BA0B0053B4AA /* CatCollectionCellView.swift */; };
 		F4BDAB2D246883FC0049EA57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDAB2C246883FC0049EA57 /* AppDelegate.swift */; };
 		F4BDAB2F246883FC0049EA57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDAB2E246883FC0049EA57 /* SceneDelegate.swift */; };
-		F4BDAB32246883FC0049EA57 /* Feed_The_Cat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4BDAB30246883FC0049EA57 /* Feed_The_Cat.xcdatamodeld */; };
 		F4BDAB34246883FC0049EA57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDAB33246883FC0049EA57 /* ContentView.swift */; };
 		F4BDAB36246884000049EA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BDAB35246884000049EA57 /* Assets.xcassets */; };
 		F4BDAB39246884000049EA57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BDAB38246884000049EA57 /* Preview Assets.xcassets */; };
 		F4BDAB3C246884000049EA57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BDAB3A246884000049EA57 /* LaunchScreen.storyboard */; };
+		F4BDAB4624689CC80049EA57 /* CatInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDAB4524689CC80049EA57 /* CatInformationView.swift */; };
+		F4BDAB4824689DBF0049EA57 /* CatCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDAB4724689DBF0049EA57 /* CatCollectionView.swift */; };
+		F4BDAB4C24689ED60049EA57 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDAB4B24689ED60049EA57 /* Endpoint.swift */; };
+		F4BDAB4F2468A0BF0049EA57 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDAB4E2468A0BF0049EA57 /* Breed.swift */; };
+		F4EB813E247594900095D88E /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB813D247594900095D88E /* BarView.swift */; };
+		F4F122BD246DAFB800CB3604 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F122BC246DAFB800CB3604 /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4BDAB29246883FC0049EA57 /* Feed The Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feed The Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F431035D246C7AE80064E4A2 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		F473E497246AA3CD00F56972 /* CatCollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionCellViewModel.swift; sourceTree = "<group>"; };
+		F473E499246AA4CE00F56972 /* BreedImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImageLoader.swift; sourceTree = "<group>"; };
+		F473E49B246AABC400F56972 /* BreedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImage.swift; sourceTree = "<group>"; };
+		F473E49E246AB67100F56972 /* UIActivityIndicator+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicator+SwiftUI.swift"; sourceTree = "<group>"; };
+		F473E4A2246B01B300F56972 /* CatInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatInformationViewModel.swift; sourceTree = "<group>"; };
+		F48E5BE624698F1A0053B4AA /* TheCatApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCatApiRequest.swift; sourceTree = "<group>"; };
+		F48E5BE8246990820053B4AA /* TheCatApiFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCatApiFetcher.swift; sourceTree = "<group>"; };
+		F48E5BEB246996150053B4AA /* CatCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionViewModel.swift; sourceTree = "<group>"; };
+		F48E5BED2469BA0B0053B4AA /* CatCollectionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionCellView.swift; sourceTree = "<group>"; };
+		F4BDAB29246883FC0049EA57 /* Meowee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meowee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BDAB2C246883FC0049EA57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4BDAB2E246883FC0049EA57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4BDAB31246883FC0049EA57 /* Feed_The_Cat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Feed_The_Cat.xcdatamodel; sourceTree = "<group>"; };
 		F4BDAB33246883FC0049EA57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4BDAB35246884000049EA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4BDAB38246884000049EA57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4BDAB3B246884000049EA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4BDAB3D246884000049EA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BDAB43246884110049EA57 /* Feed The Cat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Feed The Cat.entitlements"; sourceTree = "<group>"; };
+		F4BDAB4524689CC80049EA57 /* CatInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatInformationView.swift; sourceTree = "<group>"; };
+		F4BDAB4724689DBF0049EA57 /* CatCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionView.swift; sourceTree = "<group>"; };
+		F4BDAB4B24689ED60049EA57 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F4BDAB4E2468A0BF0049EA57 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		F4EB813D247594900095D88E /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		F4F122BC246DAFB800CB3604 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +70,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F473E49D246AB65E00F56972 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F473E49E246AB67100F56972 /* UIActivityIndicator+SwiftUI.swift */,
+				F431035D246C7AE80064E4A2 /* CollectionView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F48E5BEA246996040053B4AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F48E5BEB246996150053B4AA /* CatCollectionViewModel.swift */,
+				F473E497246AA3CD00F56972 /* CatCollectionCellViewModel.swift */,
+				F473E4A2246B01B300F56972 /* CatInformationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F4BDAB20246883FC0049EA57 = {
 			isa = PBXGroup;
 			children = (
@@ -50,7 +100,7 @@
 		F4BDAB2A246883FC0049EA57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4BDAB29246883FC0049EA57 /* Feed The Cat.app */,
+				F4BDAB29246883FC0049EA57 /* Meowee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +108,18 @@
 		F4BDAB2B246883FC0049EA57 /* Feed The Cat */ = {
 			isa = PBXGroup;
 			children = (
+				F473E49D246AB65E00F56972 /* Extensions */,
+				F48E5BEA246996040053B4AA /* ViewModel */,
+				F4BDAB4D2468A0B20049EA57 /* Model */,
+				F4BDAB4A24689EC50049EA57 /* API */,
+				F4BDAB4424689C820049EA57 /* View */,
+				F4BDAB43246884110049EA57 /* Feed The Cat.entitlements */,
 				F4BDAB2C246883FC0049EA57 /* AppDelegate.swift */,
 				F4BDAB2E246883FC0049EA57 /* SceneDelegate.swift */,
 				F4BDAB33246883FC0049EA57 /* ContentView.swift */,
 				F4BDAB35246884000049EA57 /* Assets.xcassets */,
 				F4BDAB3A246884000049EA57 /* LaunchScreen.storyboard */,
 				F4BDAB3D246884000049EA57 /* Info.plist */,
-				F4BDAB30246883FC0049EA57 /* Feed_The_Cat.xcdatamodeld */,
 				F4BDAB37246884000049EA57 /* Preview Content */,
 			);
 			path = "Feed The Cat";
@@ -76,6 +131,38 @@
 				F4BDAB38246884000049EA57 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4BDAB4424689C820049EA57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4BDAB4524689CC80049EA57 /* CatInformationView.swift */,
+				F4BDAB4724689DBF0049EA57 /* CatCollectionView.swift */,
+				F48E5BED2469BA0B0053B4AA /* CatCollectionCellView.swift */,
+				F4EB813D247594900095D88E /* BarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4BDAB4A24689EC50049EA57 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F4BDAB4B24689ED60049EA57 /* Endpoint.swift */,
+				F48E5BE624698F1A0053B4AA /* TheCatApiRequest.swift */,
+				F48E5BE8246990820053B4AA /* TheCatApiFetcher.swift */,
+				F4F122BC246DAFB800CB3604 /* ImageCache.swift */,
+				F473E499246AA4CE00F56972 /* BreedImageLoader.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F4BDAB4D2468A0B20049EA57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4BDAB4E2468A0BF0049EA57 /* Breed.swift */,
+				F473E49B246AABC400F56972 /* BreedImage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +182,7 @@
 			);
 			name = "Feed The Cat";
 			productName = "Feed The Cat";
-			productReference = F4BDAB29246883FC0049EA57 /* Feed The Cat.app */;
+			productReference = F4BDAB29246883FC0049EA57 /* Meowee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,10 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4BDAB32246883FC0049EA57 /* Feed_The_Cat.xcdatamodeld in Sources */,
+				F473E49A246AA4CE00F56972 /* BreedImageLoader.swift in Sources */,
+				F48E5BEC246996150053B4AA /* CatCollectionViewModel.swift in Sources */,
+				F431035E246C7AE80064E4A2 /* CollectionView.swift in Sources */,
+				F4EB813E247594900095D88E /* BarView.swift in Sources */,
+				F4F122BD246DAFB800CB3604 /* ImageCache.swift in Sources */,
+				F473E49C246AABC400F56972 /* BreedImage.swift in Sources */,
+				F48E5BE724698F1A0053B4AA /* TheCatApiRequest.swift in Sources */,
 				F4BDAB2D246883FC0049EA57 /* AppDelegate.swift in Sources */,
 				F4BDAB34246883FC0049EA57 /* ContentView.swift in Sources */,
+				F4BDAB4C24689ED60049EA57 /* Endpoint.swift in Sources */,
+				F4BDAB4F2468A0BF0049EA57 /* Breed.swift in Sources */,
+				F4BDAB4824689DBF0049EA57 /* CatCollectionView.swift in Sources */,
+				F48E5BE9246990820053B4AA /* TheCatApiFetcher.swift in Sources */,
+				F473E4A3246B01B300F56972 /* CatInformationViewModel.swift in Sources */,
+				F48E5BEE2469BA0B0053B4AA /* CatCollectionCellView.swift in Sources */,
 				F4BDAB2F246883FC0049EA57 /* SceneDelegate.swift in Sources */,
+				F4BDAB4624689CC80049EA57 /* CatInformationView.swift in Sources */,
+				F473E49F246AB67100F56972 /* UIActivityIndicator+SwiftUI.swift in Sources */,
+				F473E498246AA3CD00F56972 /* CatCollectionCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,17 +390,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Feed The Cat/Feed The Cat.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Feed The Cat/Preview Content\"";
 				DEVELOPMENT_TEAM = 255ADFRT4W;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Feed The Cat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rkoval.Feed-The-Cat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkoval.Meowee;
+				PRODUCT_NAME = Meowee;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,17 +414,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Feed The Cat/Feed The Cat.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Feed The Cat/Preview Content\"";
 				DEVELOPMENT_TEAM = 255ADFRT4W;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Feed The Cat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rkoval.Feed-The-Cat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkoval.Meowee;
+				PRODUCT_NAME = Meowee;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -346,19 +456,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F4BDAB30246883FC0049EA57 /* Feed_The_Cat.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F4BDAB31246883FC0049EA57 /* Feed_The_Cat.xcdatamodel */,
-			);
-			currentVersion = F4BDAB31246883FC0049EA57 /* Feed_The_Cat.xcdatamodel */;
-			path = Feed_The_Cat.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F4BDAB21246883FC0049EA57 /* Project object */;
 }

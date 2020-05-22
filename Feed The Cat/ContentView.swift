@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+	let viewModel: CatCollectionViewModel = CatCollectionViewModel()
     var body: some View {
-        Text("Hello, World!")
+		NavigationView {
+			CatCollectionView().environmentObject(viewModel)
+		}//.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
