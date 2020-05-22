@@ -50,7 +50,7 @@
 		F4BDAB38246884000049EA57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4BDAB3B246884000049EA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4BDAB3D246884000049EA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4BDAB43246884110049EA57 /* Feed The Cat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Feed The Cat.entitlements"; sourceTree = "<group>"; };
+		F4BDAB43246884110049EA57 /* Meowee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meowee.entitlements; sourceTree = "<group>"; };
 		F4BDAB4524689CC80049EA57 /* CatInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatInformationView.swift; sourceTree = "<group>"; };
 		F4BDAB4724689DBF0049EA57 /* CatCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionView.swift; sourceTree = "<group>"; };
 		F4BDAB4B24689ED60049EA57 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		F4BDAB20246883FC0049EA57 = {
 			isa = PBXGroup;
 			children = (
-				F4BDAB2B246883FC0049EA57 /* Feed The Cat */,
+				F4BDAB2B246883FC0049EA57 /* Meowee */,
 				F4BDAB2A246883FC0049EA57 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4BDAB2B246883FC0049EA57 /* Feed The Cat */ = {
+		F4BDAB2B246883FC0049EA57 /* Meowee */ = {
 			isa = PBXGroup;
 			children = (
 				F473E49D246AB65E00F56972 /* Extensions */,
@@ -113,7 +113,7 @@
 				F4BDAB4D2468A0B20049EA57 /* Model */,
 				F4BDAB4A24689EC50049EA57 /* API */,
 				F4BDAB4424689C820049EA57 /* View */,
-				F4BDAB43246884110049EA57 /* Feed The Cat.entitlements */,
+				F4BDAB43246884110049EA57 /* Meowee.entitlements */,
 				F4BDAB2C246883FC0049EA57 /* AppDelegate.swift */,
 				F4BDAB2E246883FC0049EA57 /* SceneDelegate.swift */,
 				F4BDAB33246883FC0049EA57 /* ContentView.swift */,
@@ -122,7 +122,7 @@
 				F4BDAB3D246884000049EA57 /* Info.plist */,
 				F4BDAB37246884000049EA57 /* Preview Content */,
 			);
-			path = "Feed The Cat";
+			path = Meowee;
 			sourceTree = "<group>";
 		};
 		F4BDAB37246884000049EA57 /* Preview Content */ = {
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4BDAB28246883FC0049EA57 /* Feed The Cat */ = {
+		F4BDAB28246883FC0049EA57 /* Meowee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4BDAB40246884000049EA57 /* Build configuration list for PBXNativeTarget "Feed The Cat" */;
+			buildConfigurationList = F4BDAB40246884000049EA57 /* Build configuration list for PBXNativeTarget "Meowee" */;
 			buildPhases = (
 				F4BDAB25246883FC0049EA57 /* Sources */,
 				F4BDAB26246883FC0049EA57 /* Frameworks */,
@@ -180,7 +180,7 @@
 			);
 			dependencies = (
 			);
-			name = "Feed The Cat";
+			name = Meowee;
 			productName = "Feed The Cat";
 			productReference = F4BDAB29246883FC0049EA57 /* Meowee.app */;
 			productType = "com.apple.product-type.application";
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F4BDAB24246883FC0049EA57 /* Build configuration list for PBXProject "Feed The Cat" */;
+			buildConfigurationList = F4BDAB24246883FC0049EA57 /* Build configuration list for PBXProject "Meowee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,7 +213,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4BDAB28246883FC0049EA57 /* Feed The Cat */,
+				F4BDAB28246883FC0049EA57 /* Meowee */,
 			);
 		};
 /* End PBXProject section */
@@ -390,13 +390,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Feed The Cat/Feed The Cat.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Meowee/Meowee.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Feed The Cat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Meowee/Preview Content\"";
 				DEVELOPMENT_TEAM = 255ADFRT4W;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Feed The Cat/Info.plist";
+				INFOPLIST_FILE = Meowee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,13 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Feed The Cat/Feed The Cat.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Meowee/Meowee.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Feed The Cat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Meowee/Preview Content\"";
 				DEVELOPMENT_TEAM = 255ADFRT4W;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Feed The Cat/Info.plist";
+				INFOPLIST_FILE = Meowee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -437,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4BDAB24246883FC0049EA57 /* Build configuration list for PBXProject "Feed The Cat" */ = {
+		F4BDAB24246883FC0049EA57 /* Build configuration list for PBXProject "Meowee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4BDAB3E246884000049EA57 /* Debug */,
@@ -446,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4BDAB40246884000049EA57 /* Build configuration list for PBXNativeTarget "Feed The Cat" */ = {
+		F4BDAB40246884000049EA57 /* Build configuration list for PBXNativeTarget "Meowee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4BDAB41246884000049EA57 /* Debug */,
